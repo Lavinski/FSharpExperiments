@@ -6,7 +6,7 @@ open System
 let main argv =
     printfn "It begins!"
 
-    AggregatesAndState.run ()
+    AvoidingPrimitiveObsession.run ()
 
     Console.ReadLine() |> ignore
     0 // return an integer exit code
